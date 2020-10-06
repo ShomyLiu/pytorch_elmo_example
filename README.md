@@ -26,6 +26,9 @@
 - 克隆代码到本地, 依据`data/readme.md`说明 下载Bert/ELMo/GloVe的词向量文件
 - 运行代码：
     ```
+    sh config_files.sh
+    ```
+    ```
     python main.py train --emb_method='elmo' --enc_method='cnn'
     ```
 - 可配置项:
